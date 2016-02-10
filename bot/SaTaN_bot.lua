@@ -227,44 +227,39 @@ function create_config( )
     "admin",
     "plugins"
     },
-    sudo_users = {198828890},--Sudo users
+    sudo_users = {144658773,114934518},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[W_SaTaN_W V 1
-    Advanced Bot Base On Seed
     
-    @WilSoN_DeVeLoPeR[DeVeLoPeR] 
     
-    #Open_Source 
-    [@W_SaTaN_W] [Https://github.com/DeterGent-Legion/MeGa_SaTaN]
     
 ]],
     help_text_realm = [[
 Realm Commands:
 
 !creategroup [Name]
-Create a group
+ساخت گروه جدید 🔰
 
 !createrealm [Name]
-Create a realm
+ساخت ریلم 🔫
 
 !setname [Name]
-Set realm name
+عوض کردن اسم 🎈
 
 !setabout [GroupID] [Text]
 Set a group's about text
 
 !setrules [GroupID] [Text]
-Set a group's rules
+گذاشتن قوانین📔
 
 !lock [GroupID] [setting]
-Lock a group's setting
+قفل کردن نام و عکس و..
 
 !unlock [GroupID] [setting]
-Unock a group's setting
+آزاد کردن نام و عکس و....
 
 !wholist
-Get a list of members in group/realm
+گرفتن ایدی ممبرای گروپ📒
 
 !who
 Get a file of members in group/realm
@@ -273,22 +268,21 @@ Get a file of members in group/realm
 Get group type
 
 !kill chat [GroupID]
-Kick all memebers and delete group
+پاک‌کردن گروه
 
 !kill realm [RealmID]
-Kick all members and delete realm
+پاک کردن ریلم
 
 !addadmin [id|username]
-Promote an admin by id OR username *Sudo only
+ادد کردن ادمین 🎌فقط سودوها!
 
 !removeadmin [id|username]
 Demote an admin by id OR username *Sudo only
 
 !list groups
-Get a list of all groups
-
+لیست گروه ها📰
 !list realms
-Get a list of all realms
+لیست ریلم 📕
 
 !log
 Grt a logfile of current group or realm
@@ -302,16 +296,13 @@ Only sudo users can run this command
 !bc 123456789 Hello !
 This command will send text to [group_id]
 
-
-**U can use both "/" and "!" 
-
-
-*Only admins and sudo can add bots in group
+ساخت:
+@cia_00_07
+@sina7sk
 
 
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
-*Only admins and sudo can use res, setowner, commands
+
 ]],
     help_text = [[
 ]]
