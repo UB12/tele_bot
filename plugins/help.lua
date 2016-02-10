@@ -169,7 +169,7 @@ return {
   },
   patterns = {
     "^help$",
-    "^help all",
+    "^[.!?\@#$%&]help all",
     "^help (.+)"
   },
   run = run
